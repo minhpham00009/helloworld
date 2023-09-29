@@ -1,0 +1,27 @@
+{
+    "name": "ici/helloworld",
+    "description": "this is a demo to build laravel package using composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pham Minh",
+            "email": "minhpd@icitech.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ici\\HelloWorld\\": "src/"
+        }
+     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ici\\HelloWorld\\HelloWorldServiceProvider"
+            ]
+        }
+    }
+     
+}
