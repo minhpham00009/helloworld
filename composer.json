@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "ici\\HelloWorld\\": "src/"
+            "PhamDucMinh11111111\\HelloWorld\\": "src/"
         }
      },
     "extra": {
         "laravel": {
             "providers": [
-                "ici\\HelloWorld\\HelloWorldServiceProvider"
+                "PhamDucMinh11111111\\HelloWorld\\HelloWorldServiceProvider"
             ]
         }
     }

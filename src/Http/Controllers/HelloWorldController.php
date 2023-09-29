@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ici\HelloWorld\Http\Controllers;
+namespace PhamDucMinh11111111\HelloWorld\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;
